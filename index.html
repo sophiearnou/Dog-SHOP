@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--========== BOX ICONS ==========-->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Responsive landing page</title>
+</head>
+
+<body>
+    <!--========== SCROLL TOP (icon pour remonter au menu)==========-->
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class='bx bx-chevron-up'></i>
+    </a>
+
+    <!--========== HEADER ==========-->
+
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <div class="logo">
+
+                <img src="assets/img/logo_dog.png" alt="">Dog SHOP
+            </div>
+            <!-- <a href="#" class="nav__logo">Dog SHOP</a> -->
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Accueil</a></li>
+                    <li class="nav__item"><a href="#share" class="nav__link">Marque</a></li>
+                    <li class="nav__item"><a href="#decoration" class="nav__link">Acessoires</a></li>
+                    <li class="nav__item"><a href="#accessory" class="nav__link">Nouveautés</a></li>
+
+                    <li><i class='bx bx-toggle-left change-theme' id="theme-button"></i></li>
+
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu-alt-left'></i>
+            </div>
+        </nav>
+    </header>
+    <main class="l-main">
+        <!--========== HOME ==========-->
+        <section class="home" id="home">
+            <div class="home__container bd-container bd-grid">
+                <div class="home__img">
+                    <img src="assets/img/home.png" alt="">
+                </div>
+
+                <div class="home__data">
+                    <!--Emmet -> h1.home__title{texte...} -->
+                    <h1 class="home__title">Nos nouveautés</h1>
+                    <p class="home__description">offrez un cadeau à votre chien avec nos nouveaux colliers en cuir.</p>
+                    <a href="#" class="button">Voir plus</a>
+                </div>
+            </div>
+        </section>
+        <!--========== SHARE ==========-->
+        <section class="share section bd-container" id="share">
+            <div class="share__container bd-grid">
+                <div class="share__data">
+                    <h2 class="section-title-center">La marque Bubby <br> colliers artisanaux</h2>
+                    <p class="share__description">Ce collier pour chien en cuir a été pensé pour réduire au minimum les sensations de gêne et les irritations qui peuvent gâcher les promenades de votre animal. En plus d’apporter un maximum de confort, ce modèle est aussi très léger
+                        et résistant. Il se raccorde facilement à la laisse de votre chien grâce à son anneau solide en forme de D.</p>
+                    <a href="#" class="button">Voir plus</a>
+                </div>
+
+                <div class="share__img">
+                    <img src="assets/img/shared.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!--========== DECORATION ==========-->
+        <section class="decoration section bd-container" id="decoration">
+            <h2 class="section-title">Les accessoires qui ont du succès <br> pour votre chien</h2>
+            <div class="decoration__container bd-grid">
+                <div class="decoration__data">
+                    <img src="assets/img/decoration1.png" alt="" class="decoration__img">
+                    <h3 class="decoration__title">Bubby collier grand chien</h3>
+                    <a href="#" class="button button-link">Acheter</a>
+                </div>
+
+                <div class="decoration__data">
+                    <img src="assets/img/decoration2.png" alt="" class="decoration__img">
+                    <h3 class="decoration__title">collier en cuir doublé</h3>
+                    <a href="#" class="button button-link">Acheter</a>
+                </div>
+
+                <div class="decoration__data">
+                    <img src="assets/img/decoration3.png" alt="" class="decoration__img">
+                    <h3 class="decoration__title">Médaille Red Dingo</h3>
+                    <a href="#" class="button button-link">Acheter</a>
+                </div>
+            </div>
+        </section>
+        <!--========== ACCESSORIES ==========-->
+        <section class="accessory section bd-container" id="accessory">
+            <h2 class="section-title">Nouveautés <br> Accessoires</h2>
+
+            <div class="accessory__container bd-grid">
+                <div class="accessory__content">
+                    <img src="assets/img/accessory1.png" alt="" class="accessory__img">
+                    <h3 class="accessory__title">Collier cuir Dune</h3>
+                    <span class="accessory__category">Collier</span>
+                    <span class="accessory__preci">$9.45</span>
+                    <a href="#" class="button accessory__button"><i class='bx bx-heart'></i></a>
+                </div>
+
+                <div class="accessory__content">
+                    <img src="assets/img/accessory2.png" alt="" class="accessory__img">
+                    <h3 class="accessory__title">Collier tissus XTrm</h3>
+                    <span class="accessory__category">Collier</span>
+                    <span class="accessory__preci">$2.52</span>
+                    <a href="#" class="button accessory__button"><i class='bx bx-heart'></i></a>
+                </div>
+
+                <div class="accessory__content">
+                    <img src="assets/img/accessory3.png" alt="" class="accessory__img">
+                    <h3 class="accessory__title">Red Dingo France</h3>
+                    <span class="accessory__category">Médaille</span>
+                    <span class="accessory__preci">$13.15</span>
+                    <a href="#" class="button accessory__button"><i class='bx bx-heart'></i></a>
+                </div>
+
+                <div class="accessory__content">
+                    <img src="assets/img/accessory4.png" alt="" class="accessory__img">
+                    <h3 class="accessory__title">Red Dingo star</h3>
+                    <span class="accessory__category">Médaille</span>
+                    <span class="accessory__preci">$4.25</span>
+                    <a href="#" class="button accessory__button"><i class='bx bx-heart'></i></a>
+                </div>
+
+                <div class="accessory__content">
+                    <img src="assets/img/accessory5.png" alt="" class="accessory__img">
+                    <h3 class="accessory__title">Red Dingo France os</h3>
+                    <span class="accessory__category">Médaille</span>
+                    <span class="accessory__preci">$7.99</span>
+                    <a href="#" class="button accessory__button"><i class='bx bx-heart'></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!--========== SEND GIFT ==========-->
+        <section class="send section">
+            <div class="send__container bd-container bd-grid">
+                <div class="send__content">
+                    <h2 class="section-title-center send__title">NewsLetter</h2>
+                    <p class="send__description">Inscrivez-vous pour recevoir toutes les nouveautées de Do SHOP et les PROMOS.</p>
+                    <form action="">
+                        <div class="send__direction">
+                            <input type="text" placeholder="House address" class="send__input">
+                            <a href="#" class="button">Send</a>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="send__img">
+                    <img src="assets/img/send.png" alt="">
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <!--========== FOOTER ==========-->
+    <footer class="footer section">
+        <div class="footer__container bd-container bd-grid">
+            <div class="footer__content">
+                <h3 class="footer__title">
+                    <a href="#" class="footer__logo">Nouveautés</a>
+                </h3>
+                <p class="footer__description">Chaque mois des nouveautés <br>sur le site</p>
+            </div>
+            <div class="footer__content">
+                <h3 class="footer__title">Nos services</h3>
+                <ul>
+                    <li><a href="#" class="footer__link">Prix </a></li>
+                    <li><a href="#" class="footer__link">Promotions</a></li>
+                    <li><a href="#" class="footer__link">Mode d'expédition</a></li>
+                </ul>
+            </div>
+            <div class="footer__content">
+                <h3 class="footer__title">Notre société</h3>
+                <ul>
+                    <li><a href="#" class="footer__link">Blog</a></li>
+                    <li><a href="#" class="footer__link">À propos de nous</a></li>
+                    <li><a href="#" class="footer__link">Notre vision</a></li>
+                </ul>
+            </div>
+            <div class="footer__content">
+                <h3 class="footer__title">Liens Sociaux</h3>
+                <a href="#" class="footer__social"><i class='bx bxl-facebook-circle '></i></a>
+                <a href="#" class="footer__social"><i class='bx bxl-twitter'></i></a>
+                <a href="#" class="footer__social"><i class='bx bxl-instagram-alt'></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!--========== SCROLL REVEAL ==========-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
